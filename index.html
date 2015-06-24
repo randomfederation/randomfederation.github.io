@@ -8,7 +8,7 @@
 	<script>
 		$(document).ready(function(){
 			$(".img-collapse").click(function() {
-				$(this).css('width' , '100%');
+				$(this).toggleClass('img-collapse-active');
 			});
 		});
 	</script>
@@ -37,10 +37,18 @@
 			text-align: center;
 			
 		}
+
 		.img-collapse {
 			width: 30%;
 			margin: 0 auto;
+			cursor: pointer;
 		}
+		
+		.img-collapse-active {
+			width: 100%;
+		}
+
+
 		figure {
 			font-size: 0.6em;
 			color: grey;
@@ -56,7 +64,9 @@
 		<p>Качаем <a href="https://windows.github.com/">https://windows.github.com/</a> , устанавливаем, логинимся.
 		</p>
 		<h3>3</h3>
-		<p>На самом сайте гитхаба создаем новый репозиторий, в его названии пишем <юзернейм>.guthub.io <img src="img/repository-create.png" class="img-collapse"><figure>нажмите на  картинку для увеличения</figure></p>
+		<p>На самом сайте гитхаба создаем новый репозиторий, в его названии пишем <юзернейм>.guthub.io 
+			<div class="img-collapse"><img src="img/repository-create.png"></div>
+			<figure>нажмите на  картинку для увеличения</figure></p>
 	</div>
 </body>
 </html>
