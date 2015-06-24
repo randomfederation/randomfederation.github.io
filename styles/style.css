@@ -70,8 +70,9 @@ figure {
 }
 
 .spoiler {
-	background: #FF9100;
-	color: #FF9100;
+	background: #90DCFD;
+	color: #90DCFD;
+	border-radius: 3px;
 	text-shadow: none;
 }
 
