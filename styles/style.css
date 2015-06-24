@@ -54,6 +54,18 @@ section, header {
 	text-shadow: 0px 1px 0px #C7C7C7;
 }
 
+.setup-button {
+	display: inline-block;
+	width: 155px;
+	vertical-align: middle;
+	height: 27px;
+	background: url(../img/seup-button.PNG) no-repeat center;
+}
+
+p .image-inline {
+	line-height: 29px;
+}
+
 .img-collapse {
 	width: 30%;
 	margin: 0 auto;
