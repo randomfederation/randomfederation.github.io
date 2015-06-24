@@ -59,7 +59,16 @@ section, header {
 	width: 155px;
 	vertical-align: middle;
 	height: 27px;
-	background: url(../img/seup-button.PNG) no-repeat center;
+	background: url(../img/setup-button.PNG) no-repeat center;
+}
+.commit-button {
+	display: inline-block;
+	width: 181px;
+	vertical-align: middle;
+	height: 38px;
+	border: 1px solid #4EA6EA;
+	border-radius: 3px;
+	background: url(../img/commit-button.png) no-repeat center;
 }
 
 p .image-inline {
