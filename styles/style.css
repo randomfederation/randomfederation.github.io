@@ -61,6 +61,7 @@ section, header {
 	height: 27px;
 	background: url(../img/setup-button.PNG) no-repeat center;
 }
+
 .commit-button {
 	display: inline-block;
 	width: 181px;
@@ -69,6 +70,26 @@ section, header {
 	border: 1px solid #4EA6EA;
 	border-radius: 3px;
 	background: url(../img/commit-button.png) no-repeat center;
+}
+
+.synch-button-simple {
+	display: inline-block;
+	width: 181px;
+	vertical-align: middle;
+	height: 38px;
+	border: 1px solid #4EA6EA;
+	border-radius: 3px;
+	background: url(../img/synch-button-simple.png) no-repeat center;
+}
+
+.synch-button-updated {
+	display: inline-block;
+	width: 95px;
+	vertical-align: middle;
+	height: 25px;
+	border: 1px solid #4EA6EA;
+	border-radius: 3px;
+	background: #FFF url(../img/synch-button-updated.png) no-repeat center;
 }
 
 p .image-inline {
