@@ -15,9 +15,6 @@ body {
 	background: url(../img/bg.png);
 }
 
-.wrapper {
-	margin: 0 auto;
-}
 
 .center {
 	text-align: center;
@@ -56,13 +53,14 @@ figure {
 	text-shadow: none;
 }
 
-@media (min-width: 901px;) {
+@media (min-width: 901px) {
 	.wrapper {
 		width: 60%;
+		margin: 0 auto;
 	}
 }
 
-@media (max-width: 900px;) {
+@media (max-width: 900px) {
 	.wrapper {
 		width: 100%;
 	}
