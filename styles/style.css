@@ -56,3 +56,9 @@ figure {
 	color: #333;
 	text-shadow: none;
 }
+
+@media (max-width: 900px;) {
+	.wrapper {
+		width: 100%;
+	}
+}
