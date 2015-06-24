@@ -49,8 +49,10 @@ figure {
 .spoiler {
 	background: #FF9100;
 	color: #FF9100;
+	text-shadow: none;
 }
 
 .spoiler:hover {
 	color: #333;
+	text-shadow: none;
 }
