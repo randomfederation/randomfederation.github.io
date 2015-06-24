@@ -11,6 +11,8 @@ body {
 	font-size: 120%;
 	font-family: monospace;
 	color: #333;
+	text-shadow: 0px 1px 0px #fff;
+	background: url(../img/bg.png);
 }
 
 .wrapper {
