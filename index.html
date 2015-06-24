@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Verbeq mobile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="MobileOptimized" content="320">
+	<meta name="HandheldFriendly" content="true">
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#menu-open").on(" click ", function(){
+				$("#menu-collapsed").fadeToggle(100);
+			});
+			$("#contacts-link").on(" click ", function(){
+				$("#menu-collapsed").fadeOut(0);
+			});
+		});
+	</script>
+</head>
+<body>
+	<header class="header row">
+		<div class="logo__wrapper">
+			<a href="index.html" class="home-link"><span class="img-aligner"><img src="img/logo-home.png" alt="" class="logo"></a>
+		</div>
+		<div class="diagonal-bg">
+		</div>
+		<div class="menu__wrapper">
+			<input type="button" class="menu-open relative" id="menu-open" name="menu">
+		</div>
+		<div class="clearfix"></div>
+		<nav class="menu__collapsed" id="menu-collapsed">
+			<ul>
+				<li class="menu__collapsed_header">Компания</li>
+				<li><a href="">О компании</a></li>
+				<li><a href="">История Verbeq</a></li>
+				<li><a href="">Партнеры</a></li>
+			</ul>
+			<ul>
+				<li class="menu__collapsed_header">Продукты</li>
+				<li><a href="">Hollcon</a></li>
+				<li><a href="">Cocos</a></li>
+				<li><a href="">Bi-Cocos</a></li>
+				<li><a href="">Latex</a></li>
+			</ul>
+			<ul>
+				<li class="menu__collapsed_header">Качество</li>
+				<li><a href="">Технологии</a></li>
+				<li><a href="">Сертификаты</a></li>
+			</ul>
+			<ul>
+				<li class="menu__collapsed_header" id="contacts-link"><a href="#contacts">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="row main__header center">
+		<span class="main__header_span">Лидер в Европе по выпуску наполнителей и комплектующих для матрасов</span>
+	</section>
+	<section class="products row center">
+		<article class="products__item">
+			<img src="img/hollcon.jpg" alt="">
+			<a href="#">Hollcon</a>
+			<p>Полиэфирный нетканый материал с разнообразной сферой применения.</p>
+		</article>
+		<article class="products__item">
+			<img src="img/cocos.jpg" alt="">
+			<a href="#">Cocos</a>
+			<p>Экологически чистый и долговечный наполнитель, использующийся в качестве жесткого слоя в готовом матрасе.</p>
+		</article>
+		<article class="products__item">
+			<img src="img/bcocos.jpg" alt="">
+			<a href="#">Bi-Cocos</a>
+			<p>Комбинированный нетканый материал, предназначенный для создания ортопедических слоев</p>
+		</article>
+		<article class="products__item">
+			<img src="img/latex.jpg" alt="">
+			<a href="#">Latex</a>
+			<p>Современный и натуральный наполнитель матрасов и наматрасников.</p>
+		</article>
+	</section>
+	<section class="quality row center">
+		<article class="quality__inner">
+			<span class="quality__header">Знак качества Verbeq&trade;</span>
+			<span class="img-aligner"><img src="img/quality-mark.png" width="208" height="80" alt="">
+			<span class="img-aligner"><img src="img/quality-img1.jpg" width="171" height="143" alt="">
+			<span class="img-aligner"><img src="img/quality-img2.jpg" width="171" height="143" alt="">
+			<p>Знак качества Verbeq — это гарантия исключительно высокого качества выпускаемых продуктов. Каждый наполнитель с маркировкой Verbeq Quality сертифицирован по международным стандартам, таким как OEKO-Tex™, ISO-9001, TUV Rheiland™, ZUS и EAC. Компания Verbeq обладает инновационными технологиями иглопробивного скрепления полотна, аэродинамического формирования холста Airlay™, непрерывного потока Dunlop™ и горизонтальной укладки волокна.</p>
+		</article>
+	</section>
+	<section class="partners row center">
+		<div class="partners__wrapper">
+			<span class="partners__header">Наши партнеры</span>
+			<a href=""><span class="img-aligner"></span><img src="img/brand-1.png" alt=""></a>
+			<a href=""><span class="img-aligner"></span><img src="img/brand-2.png" alt=""></a>
+			<a href=""><span class="img-aligner"></span><img src="img/brand-3.png" alt=""></a>
+			<a href=""><span class="img-aligner"></span><img src="img/brand-4.png" alt=""></a>
+			<a href=""><span class="img-aligner"></span><img src="img/brand-5.png" alt=""></a>
+		</div>
+	</section>
+	<section class="request row center">
+		<span class="request__header">Оформить заявку на поставку продукции</span>
+		<a href="http://verbeq.ru/contacts.html#tabs-4"><img src="img/order.png" height="40" width="46" alt=""></a>
+	</section>
+	<section id="contacts" class="contacts row">
+		<span class="contacts__header">
+			Контактная информация
+		</span>
+		<span>Verbeq, Росcия</span>
+		<span>141602, Московская область, г. Клин,</span>
+		<span>Ленинградское ш., 88 км, стр. 47</span>
+		<a class="phone" href="tel:84957483490">8 (495) 748-34-90</a>
+		<a class="phone" href="tel:84962455600">8 (49624) 55-600</a>
+		<span>E-mail: <a href="mailto:info@verbeq.com">info@verbeq.com</a></span>
+	</section>
+	<section class="copyright">&copy; 1993—2014. Verbeq Ltd.</section>
+</body>
+</html>
