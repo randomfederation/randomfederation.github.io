@@ -23,7 +23,7 @@
 		}
 		
 		body {
-			font-size: 100%;
+			font-size: 120%;
 			font-family: monospace;
 			color: #333;
 		}
@@ -52,11 +52,20 @@
 			width: 100%;
 		}
 
-
 		figure {
-			font-size: 0.6em;
-			color: grey;
+			font-size: 0.8em;
+			color: #A5A5A5;
 		}
+		
+		.spoiler {
+			background: #f30;
+			color: #f30;
+		}
+
+		.spoiler:hover {
+			color: #333;
+		}
+
 	</style>
 </head>
 <body>
@@ -69,8 +78,30 @@
 		</p>
 		<h3>3</h3>
 		<p>На самом сайте гитхаба создаем новый репозиторий, в его названии пишем <юзернейм>.guthub.io 
-			<div class="img-collapse"><img src="img/repository-create.png" class="img-center"></div>
-			<figure>нажмите на  картинку для увеличения</figure></p>
+			<div class="img-collapse">
+				<img src="img/repository-create.png" class="img-center">
+			</div>
+			<figure>нажмите на  картинку для увеличения</figure>
+		</p>
+		<h3>4</h3>
+		<p>На следующем экране жмем кнопку Setup In Desktop , он откроет приложение и запросит расположение, куда склонировать репозиторий и создаст там папку с таким же именем, то есть у вас появится папка с именем <юзернейм>.github.io и  внутри будет папка .git <span class="spoiler">скрытая</span>.
+		</p>
+		<h3>5</h3>
+		<p>Теперь берете свои наверстанные файлы, с папками и картинками и кидаете в эту папку через проводник, то есть index.html должен быть там же, где и папка .git .
+			<div class="img-collapse">
+				<img src="img/folders.PNG" class="img-center">
+			</div>
+		</p>
+		<h3>6</h3>
+		<p>Идете в Github for Desktop и видите, что там появились все файлы, которые вы только что кинули.</p>
+		<h3>7</h3>
+		<p>Под файлами, внизу пишите  комментарий в строке Summary и жмете кнопку Commit to master, он обработает это всё, а затем жмете кнопку Publish рядом с иконкой настроек справа вверху, а потом, когда он опубликует, жмете кнопку synch.
+			<div class="img-collapse">
+				<img src="img/github-desktop-usage.PNG" class="img-center">
+			</div>
+		</p>
+		<h3>8</h3>
+		<p>Всё. Теперь, если вы хотите комитить изменения в файлах, то надо работать именно с файлами, которые в папке или же кидать готовые  файлы в эту папку с заменой. Как только что-нибудь в файле поменяется <span class="spoiler">надо обязательно файл  сохранить</span>, это отобразится в Github for desktop, пишите комментарий в summary, опять кнопку Commit to master и потом synch <span class="spoiler">рядом с ней появится такая стрелка с циферкой на синем фоне</span>.</p>
 	</div>
 </body>
 </html>
