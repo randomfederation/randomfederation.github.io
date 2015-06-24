@@ -16,7 +16,6 @@ body {
 }
 
 .wrapper {
-	width: 60%;
 	margin: 0 auto;
 }
 
@@ -55,6 +54,12 @@ figure {
 .spoiler:hover {
 	color: #333;
 	text-shadow: none;
+}
+
+@media (min-width: 901px;) {
+	.wrapper {
+		width: 60%;
+	}
 }
 
 @media (max-width: 900px;) {
