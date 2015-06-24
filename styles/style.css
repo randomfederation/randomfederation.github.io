@@ -12,19 +12,46 @@ body {
 	font-family: monospace;
 	color: #333;
 	text-shadow: 0px 1px 0px #fff;
-	background: url(../img/bg.png);
 }
 
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1, h3, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+section, header {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
 
 .center {
 	text-align: center;
-	
 }
 
 .img-center {
 	margin: 0 auto;
 	border: 2px solid #BDBDBD;
 	border-radius: 3px;
+}
+
+.white {
+	background: #fff;
+}
+
+.grey {
+	background: #F9F9F9;;
+}
+
+.dark {
+	background: rgba(84, 84, 84, 0.59);
+	text-shadow: 0px 1px 0px #C7C7C7;
 }
 
 .img-collapse {
