@@ -58,6 +58,7 @@ section, header {
 	width: 30%;
 	margin: 0 auto;
 	cursor: pointer;
+	padding-top: 1em;
 }
 
 .img-collapse-active {
