@@ -192,7 +192,7 @@ figure {
 		margin: 0 auto;
 	}
 
-	.footer {
+	footer {
 		padding: 1.5em;
 	}
 }
@@ -202,7 +202,7 @@ figure {
 		width: 100%;
 	}
 
-	.footer {
+	footer {
 		padding: 0.8em;
 	}
 }
