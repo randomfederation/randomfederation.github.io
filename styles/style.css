@@ -184,15 +184,25 @@ figure {
 	text-shadow: none;
 }
 
+
+
 @media (min-width: 901px) {
 	.wrapper {
 		width: 60%;
 		margin: 0 auto;
+	}
+
+	.footer {
+		padding: 1.5em;
 	}
 }
 
 @media (max-width: 900px) {
 	.wrapper {
 		width: 100%;
+	}
+
+	.footer {
+		padding: 0.8em;
 	}
 }
