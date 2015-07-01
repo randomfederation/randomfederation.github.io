@@ -179,6 +179,12 @@ figure {
 	text-shadow: none;
 }
 
+/*BUTTONS*/
+
+#vk_like {
+	margin: 0 auto;
+}
+
 @media (min-width: 901px) {
 
 	section,
